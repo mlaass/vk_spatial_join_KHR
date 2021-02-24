@@ -1,0 +1,6 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../:\VulkanSDK\vk_raytracing_tutorial_KHR\.idea/dataSources/
+/dataSources.local.xml

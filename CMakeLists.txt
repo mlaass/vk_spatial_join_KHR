@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.9.6 FATAL_ERROR)
-project(vk_raytracing_tutorial)
+project(vk_spatial_join_khr)
 
 #--------------------------------------------------------------------------------------------------
 # look for shared_sources 1) as a sub-folder 2) at some other locations
@@ -37,19 +37,6 @@ file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/media DESTINATION ${EXECUTABLE_OUTPUT_PATH
 
 #--------------------------------------------------------------------------------------------------
 # Sub examples
-add_subdirectory(ray_tracing__advance) 
-add_subdirectory(ray_tracing__before) 
-add_subdirectory(ray_tracing__simple)
 
-add_subdirectory(ray_tracing_animation)
-add_subdirectory(ray_tracing_anyhit)
-add_subdirectory(ray_tracing_callable)
-add_subdirectory(ray_tracing_gltf)
-add_subdirectory(ray_tracing_instances)
-add_subdirectory(ray_tracing_intersection)
-add_subdirectory(ray_tracing_jitter_cam)
-add_subdirectory(ray_tracing_manyhits)
-add_subdirectory(ray_tracing_rayquery)
-add_subdirectory(ray_tracing_reflections)
+add_subdirectory(spatial_join)
 
-add_subdirectory(ray_tracing_indirect_scissor)
